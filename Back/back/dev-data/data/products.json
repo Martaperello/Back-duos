@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Espresso Shot",
+    "description": "Rich and concentrated coffee shot.",
+    "category": "cafe",
+    "ingredients": [
+      {
+        "name": "Espresso beans",
+        "quantity": 18,
+        "unit": "grams"
+      },
+      {
+        "name": "Water",
+        "quantity": 30,
+        "unit": "ml"
+      }
+    ],
+    "price": 4.5,
+    "stock": 25,
+    "image": "espresso_shot.webp"
+  },
+  {
+    "title": "Cappuccino Delight",
+    "description": "Classic cappuccino with a perfect foam layer.",
+    "category": "cafe",
+    "ingredients": [
+      {
+        "name": "Espresso beans",
+        "quantity": 18,
+        "unit": "grams"
+      },
+      {
+        "name": "Milk",
+        "quantity": 150,
+        "unit": "ml"
+      }
+    ],
+    "price": 3.5,
+    "stock": 15,
+    "image": "capuchino_delight.webp"
+  },
+  {
+    "title": "Chocolate Croissant",
+    "description": "Flaky pastry filled with rich chocolate.",
+    "category": "bolleria",
+    "ingredients": [
+      {
+        "name": "Croissant dough",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Chocolate",
+        "quantity": 20,
+        "unit": "grams"
+      }
+    ],
+    "stock": 20,
+    "price": 4.0,
+    "image": "chocolate_croissant"
+  },
+  {
+    "title": "Ham and Cheese Baguette",
+    "description": "Fresh baguette with ham and cheese filling.",
+    "category": "bocatas",
+    "ingredients": [
+      {
+        "name": "Baguette",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Ham",
+        "quantity": 50,
+        "unit": "grams"
+      },
+      {
+        "name": "Cheese",
+        "quantity": 30,
+        "unit": "grams"
+      }
+    ],
+    "stock": 10,
+    "price": 4.2,
+    "image": "ham_cheese_baguette.webp"
+  },
+  {
+    "title": "Lemon Tart",
+    "description": "Tangy lemon tart with a buttery crust.",
+    "category": "bocatas",
+    "ingredients": [
+      {
+        "name": "Lemon filling",
+        "quantity": 50,
+        "unit": "grams"
+      },
+      {
+        "name": "Pastry crust",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "price": 3.0,
+    "stock": 18,
+    "image": "lemon_tart.webp"
+  },
+  {
+    "title": "Flat White",
+    "description": "Smooth and velvety coffee with a balanced flavor.",
+    "category": "cafe",
+    "ingredients": [
+      {
+        "name": "Espresso beans",
+        "quantity": 18,
+        "unit": "grams"
+      },
+      {
+        "name": "Milk",
+        "quantity": 120,
+        "unit": "ml"
+      }
+    ],
+    "stock": 30,
+    "price": 2.0,
+    "image": "flat_white.webp"
+  },
+  {
+    "title": "Almond Croissant",
+    "description": "Croissant filled with almond paste, topped with sliced almonds.",
+    "category": "bolleria",
+    "ingredients": [
+      {
+        "name": "Croissant dough",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Almond paste",
+        "quantity": 20,
+        "unit": "grams"
+      },
+      {
+        "name": "Sliced almonds",
+        "quantity": 5,
+        "unit": "grams"
+      }
+    ],
+    "stock": 12,
+    "price": 3.3,
+    "image": "almond_croissant.webp"
+  },
+  {
+    "title": "Vegetable Wrap",
+    "description": "Healthy vegetable wrap with fresh ingredients.",
+    "category": "bocatas",
+    "ingredients": [
+      {
+        "name": "Wrap",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Mixed vegetables",
+        "quantity": 50,
+        "unit": "grams"
+      },
+      {
+        "name": "Hummus",
+        "quantity": 20,
+        "unit": "grams"
+      }
+    ],
+    "stock": 16,
+    "price": 3.5,
+    "image": "vegetable_wrap.webp"
+  },
+  {
+    "title": "Latte Macchiato",
+    "description": "Layered coffee with steamed milk.",
+    "category": "cafe",
+    "ingredients": [
+      {
+        "name": "Espresso beans",
+        "quantity": 18,
+        "unit": "grams"
+      },
+      {
+        "name": "Milk",
+        "quantity": 150,
+        "unit": "ml"
+      }
+    ],
+    "stock": 25,
+    "price": 3.0,
+    "image": "latte_macchiato.webp"
+  },
+  {
+    "title": "Blueberry Muffin",
+    "description": "Moist muffin with fresh blueberries.",
+    "category": "bolleria",
+    "ingredients": [
+      {
+        "name": "Muffin batter",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Blueberries",
+        "quantity": 15,
+        "unit": "grams"
+      }
+    ],
+    "stock": 22,
+    "price": 2.5,
+    "image": "blueberry_muffin.png"
+  },
+  {
+    "title": "Caprese Sandwich",
+    "description": "Fresh sandwich with tomato, mozzarella, and basil.",
+    "category": "bocatas",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Tomato",
+        "quantity": 30,
+        "unit": "grams"
+      },
+      {
+        "name": "Mozzarella",
+        "quantity": 30,
+        "unit": "grams"
+      },
+      {
+        "name": "Basil",
+        "quantity": 5,
+        "unit": "grams"
+      }
+    ],
+    "stock": 15,
+    "price": 1.5,
+    "image": "caprese_sandwich.webp"
+  },
+  {
+    "title": "Espresso Macchiato",
+    "description": "Espresso topped with a dollop of foamed milk.",
+    "category": "cafe",
+    "ingredients": [
+      {
+        "name": "Espresso beans",
+        "quantity": 18,
+        "unit": "grams"
+      },
+      {
+        "name": "Milk foam",
+        "quantity": 10,
+        "unit": "grams"
+      }
+    ],
+    "stock": 25,
+    "price": 2.5,
+    "image": "espresso_macchiato.webp"
+  },
+  {
+    "title": "Butter Croissant",
+    "description": "Buttery, flaky, and delicious croissant.",
+    "category": "bolleria",
+    "ingredients": [
+      {
+        "name": "Croissant dough",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "stock": 18,
+    "price": 2.0,
+    "image": "butter_croissant.webp"
+  },
+  {
+    "title": "Egg Salad Sandwich",
+    "description": "Classic egg salad on toasted bread.",
+    "category": "bocatas",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Egg salad",
+        "quantity": 50,
+        "unit": "grams"
+      }
+    ],
+    "stock": 13,
+    "price": 3.5,
+    "image": "egg_salad_sandwich.webp"
+  },
+  {
+    "title": "Cheese Danish",
+    "description": "Sweet pastry filled with cream cheese.",
+    "category": "bolleria",
+    "ingredients": [
+      {
+        "name": "Danish dough",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Cream cheese",
+        "quantity": 20,
+        "unit": "grams"
+      }
+    ],
+    "stock": 20,
+    "price": 2.8,
+    "image": "cheese_danish.webp"
+  },
+  {
+    "title": "American Coffee",
+    "description": "Smooth and rich black coffee.",
+    "category": "cafe",
+    "ingredients": [
+      {
+        "name": "Coffee beans",
+        "quantity": 18,
+        "unit": "grams"
+      },
+      {
+        "name": "Water",
+        "quantity": 200,
+        "unit": "ml"
+      }
+    ],
+    "stock": 50,
+    "price": 2.0,
+    "image": "american_coffee.webp"
+  },
+  {
+    "title": "Tuna Salad Sandwich",
+    "description": "Tuna salad with fresh greens on whole-grain bread.",
+    "category": "bocatas",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "Tuna salad",
+        "quantity": 50,
+        "unit": "grams"
+      }
+    ],
+    "stock": 18,
+    "price": 1.7,
+    "image": "tuna_salad_sandwich.webp"
+  }
+]
