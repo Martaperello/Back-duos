@@ -181,4 +181,64 @@ exports.getProductsById = async (req, res) => {
 }
 
 
+// Add a product to featured or remove it
+exports.toggleFeaturedProduct = async (req, res) => {
+  try {
+    const productId = req.params.id;
+
+    const product = await Product.findById(productId);
+
+    if (!product) {
+      return res.status(404).json({
+        status: 'error',
+        message: 'Producto no encontrado',
+      });
+    }
+
+    product.featured = !product.featured;
+    await product.save();
+
+    res.status(200).json({
+      status: 'success',
+      message: `Producto ${product.featured ? 'agregado a destacados' : 'eliminado de destacados'}`,
+      data: {
+        product,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'error',
+      message: 'Un error ocurrió mientras se actualizaba el producto',
+    });
+  }
+};
+
+// Get all featured products
+exports.getAllFeaturedProducts = async (req, res) => {
+  try {
+    const featuredProducts = await Product.find({ featured: true });
+
+    if (featuredProducts.length === 0) {
+      return res.status(404).json({
+        status: 'error',
+        message: 'No hay productos destacados',
+      });
+    }
+
+    res.status(200).json({
+      status: 'success',
+      data: {
+        results: featuredProducts.length,
+        products: featuredProducts,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'error',
+      message: 'Un error ocurrió mientras se obtenían los productos destacados',
+    });
+  }
+};
+
+
 
