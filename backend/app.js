@@ -9,7 +9,7 @@ const orderRouter = require('./routes/orderRoutes')
 const app = express();
 
 const cors = require('cors')
-app.use( cors({ origin: 'https://gentle-brioche-25624d.netlify.app/', 
+app.use( cors({ origin: 'https://gentle-brioche-25624d.netlify.app', 
 credentials: true }) );
 //Serve Static files
 app.use(express.static(path.join(__dirname, 'public')));
