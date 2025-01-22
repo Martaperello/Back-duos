@@ -45,6 +45,7 @@ const productSchema = new mongoose.Schema({
         min: [0, "Price must be a positive number"],
         default: 0
     },
+    featured: { type: Boolean, default: false },
     stock: {
         type: Number,
         default: 0,
