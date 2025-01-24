@@ -4,13 +4,15 @@ const userRouter = require('./routes/userRoutes')
 const productRouter = require('./routes/productRoutes')
 const cartRouter = require('./routes/cartRoutes')
 const orderRouter = require('./routes/orderRoutes')
-
+const cookieParser = require('cookie-parser');
 
 const app = express();
 
 const cors = require('cors')
 app.use( cors({ origin: 'https://gentle-brioche-25624d.netlify.app', 
 credentials: true }) );
+
+app.use(cookieParser())
 //Serve Static files
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json({ limit: '10kb' }));
