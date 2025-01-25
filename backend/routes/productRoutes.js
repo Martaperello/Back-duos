@@ -10,7 +10,7 @@ router.route('/:id/featured').patch(toggleFeaturedProduct)
 
 router.route('/:id')
   .get(getProduct)
-  .patch(updateProduct)
+  .put(updateProduct)
   .delete(deleteProduct)
 
 
