@@ -148,3 +148,14 @@ exports.restrictTo = (...roles) => {
     next();
   };
 };
+
+exports.logout = (req, res) => {
+  res.cookie('jwt', 'loggedout', {
+    expires: new Date(Date.now() + 10 * 1000), // Cookie expires in 10 seconds
+    httpOnly: true,
+    sameSite: 'none',
+    secure: true,
+  });
+
+  res.status(200).json({ status: 'success' });
+};
